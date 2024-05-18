@@ -6,7 +6,6 @@ export default function Home() {
   return (
     // <main className={styles.main}>
     <main>
-      <Navbar />
       <h1>Hello World</h1>
       {/* <div className={styles.description}>
         <p>

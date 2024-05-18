@@ -4,11 +4,20 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo">
-        <Link href="/">
+        <Link href="/contact">
           Contact
         </Link>
       </div>
-      <a href="" className="cta-btn">Resume</a>
+      <div className="logo">
+        <Link href="/about">
+          About
+        </Link>
+      </div>
+      <div className="logo">
+        <Link href="/artists">
+          Artists
+        </Link>
+      </div>
     </div>
   )
 }
