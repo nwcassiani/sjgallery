@@ -1,21 +1,22 @@
 import Link from "next/link";
 
 const Navbar = () => {
+  
   return (
     <div className="nav-container">
-      <h2>SARAH JANKO GALLERY</h2>
-      <div style={{ display: "flex"}}>
-        <div style={{ margin: "0 auto"}}>
-          <Link className="nav-link" href="/artists">
+      <div style={{ display: "flex", paddingTop: "10px"}}>
+        <h2>SARAH JANKO GALLERY</h2>
+      </div>
+      <div className="nav-links">
+          <Link href="/artists">
             Artists
           </Link>
-          <Link className="nav-link" href="/contact">
+          <Link href="/contact">
             Contact
           </Link>
-          <Link className="nav-link" href="/about">
+          <Link href="/about">
             About
           </Link>
-        </div>
       </div>
     </div>
   )
