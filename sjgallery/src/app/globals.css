@@ -82,6 +82,17 @@
 .nav-container {
   display: table;
   margin: 0 auto;
+  width: 290px;
+}
+
+.nav-container h2 {
+  margin: 0 auto;
+}
+
+.contact {
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 300px;
 }
 
 /* html,
@@ -100,10 +111,15 @@ body {
     rgb(var(--background-start-rgb));
 } */
 
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
-  margin: 25px 10px;
 }
 
 /* @media (prefers-color-scheme: dark) {
