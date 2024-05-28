@@ -11,22 +11,19 @@ const Logo = () => {
       <div className="logo-letter">
         <h1>G</h1>
       </div>
-      <div style={{ 
-        position: 'relative',
+      <div className="logo-lash" style={{ 
         right: '27px',
         transform: 'rotate(-40deg)'
         }}>
         <h2>I</h2>
       </div>
-      <div style={{ 
-        position: 'relative',
+      <div className="logo-lash" style={{ 
         right: '51px',
         paddingTop: '5px'
         }}>
         <h2>I</h2>
       </div>
-      <div style={{ 
-        position: 'relative',
+      <div className="logo-lash" style={{ 
         right: '78px',
         transform: 'rotate(40deg)'
         }}>
