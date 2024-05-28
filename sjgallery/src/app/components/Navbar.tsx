@@ -4,7 +4,7 @@ const Navbar = () => {
   
   return (
     <div className="nav-container">
-      <div style={{ display: "flex", paddingTop: "10px"}}>
+      <div style={{ display: "flex" }}>
         <h2><a href="/" >SARAH JANKO GALLERY</a></h2>
       </div>
       <div className="nav-links">
