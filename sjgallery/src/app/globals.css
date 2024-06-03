@@ -123,6 +123,26 @@
   position: relative;
 }
 
+.blink {
+  visibility: hidden;
+}
+
+/* @keyframes blink {  
+  0% { visibility: hidden; }
+  100% { visibility: visible }
+}
+
+@-webkit-keyframes blink {
+  0% { visibility: hidden; }
+  100% { visibility: visible }
+}
+
+.blink {
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}  */
+
 /* html,
 body {
   max-width: 100vw;
