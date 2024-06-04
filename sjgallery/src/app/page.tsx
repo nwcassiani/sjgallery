@@ -7,7 +7,8 @@ export default function Home() {
       <div style={{maxWidth: '700px', margin: '0 auto'}}>
         <div className="home-image" >
           <Image
-            src="/L1150033-2.jpg"
+            // src="/L1150033-2.jpg"
+            src="https://res.cloudinary.com/dsxmv5yjt/image/upload/v1716498248/L1150033-2_hxfvfe.jpg"
             width={0}
             height={0}
             sizes="100vw"
