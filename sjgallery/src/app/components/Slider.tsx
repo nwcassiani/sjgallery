@@ -1,7 +1,7 @@
 'use client'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 import { images } from '../../../lib/images';
 import Image from "next/image";
@@ -14,7 +14,6 @@ const Slider = () => {
   return (
     <Swiper
       navigation
-      // pagination={{ type: 'fraction'}}
       autoplay={{
         delay: 5000,
         disableOnInteraction: false,
