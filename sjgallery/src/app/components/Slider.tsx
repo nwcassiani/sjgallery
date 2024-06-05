@@ -29,6 +29,9 @@ const Slider = () => {
               style={{ width: '100%', height: 'auto' }}
             />
           </div>
+          <div style={{ display: 'flex', justifyContent: 'end'}}>
+            <p><i>{image.title}</i>, {image.artist}</p>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
